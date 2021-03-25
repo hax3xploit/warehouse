@@ -1,6 +1,6 @@
 <template>
   <b-navbar toggleable type="dark" variant="dark">
-    <b-navbar-brand router-link to="/">Veri Nyc Game</b-navbar-brand>
+    <b-navbar-brand router-link to="/">Warehouse Game</b-navbar-brand>
 
     <b-navbar-toggle target="navbar-toggle-collapse">
       <template #default="{ expanded }">
