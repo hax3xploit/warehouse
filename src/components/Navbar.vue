@@ -12,7 +12,7 @@
     <b-collapse id="navbar-toggle-collapse" is-nav>
       <b-navbar-nav  class="ml-auto">
         <!-- <b-nav-item  router-link to="/Learn">Learn</b-nav-item> -->
-          <b-button variant="primary" router-link to="/Learn">Learn</b-button>
+          <b-button variant="light" router-link to="/Learn">Learn</b-button>
           <b-button variant="secondary" router-link to="/Play">Play</b-button>
           <b-button variant="light" router-link to="/Help">Help</b-button>
         <!-- <b-nav-item  router-link to="/Play">Play</b-nav-item> -->

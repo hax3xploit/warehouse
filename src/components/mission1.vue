@@ -1,11 +1,34 @@
 <template>
-    <div class="item">
-        <div class="content" id="food" v-on:click=check()> Food</div>
-        <div class="content" id="electronics"> Electronics</div>
-        <div class="content" id="dairy"> Dairy Items</div>
-        <div class="content" id="homeDecor"> Home Decor</div>
 
+<b-container class="mt-5">
+    <div class="item">
+        <div >
+            <b-card-group >
+                <b-card deck v-b-hover="hoverHandler"  id="food" v-on:click=check() bg-variant="primary" text-variant="white" header="Food 🍲" class="text-center">
+                    <b-card-text>Food is any substance consumed to provide nutritional support for an organism. </b-card-text>
+                </b-card>
+
+                <b-card v-b-hover="hoverHandler" id="electronics" bg-variant="secondary" text-variant="white" header="Electronics 🤖" class="text-center">
+                    <b-card-text>Electronics comprises the physics, engineering, technology and applications that deal with the emission, flow and control of electrons in vacuum and matter.</b-card-text>
+                </b-card>
+            </b-card-group>
+        </div>
+
+        <div class="mt-3">
+            <div >
+                <b-card-group >
+                    <b-card deck v-b-hover="hoverHandler" id="dairy" bg-variant="light" header="Dairy 🐄" class="text-center">
+                        <b-card-text>Dairy products or milk products are a type of food produced from or containing the milk of mammals, most commonly cattle, water buffaloes, goats, sheep, and ...</b-card-text>
+                    </b-card>
+
+                    <b-card deck v-b-hover="hoverHandler" id="homeDecor" bg-variant="dark" header="HomeDecor ✨" text-variant="white" class="text-center">
+                        <b-card-text>Home decor is the style of your home interiors and includes the items you use to decorate and personalise your house. </b-card-text>
+                    </b-card>
+                </b-card-group>
+            </div>
+        </div>
     </div>
+</b-container>    
 </template>
 
 <script>
@@ -19,36 +42,3 @@ export default {
     }
 }
 </script>
-<style>
-.item{
-    height: 600px;
-    width: 600px;
-    position:relative;
-    margin: 50px;
-    background: rgb(130, 228, 245);
-}
-
-.content{
-    height: 250px;
-    width: 250px;
-    border:5px solid;
-    float: left;
-    margin: 20px;
-}
-#food{
-    
-    background: rgb(148, 164, 165);
-}
-#electronics{
-    
-    background: rgb(218, 230, 187);
-}
-#dairy{
-    
-    background: rgb(116, 141, 116);
-}
-#homeDecor{
-    
-    background: rgb(210, 222, 223);
-}
-</style>

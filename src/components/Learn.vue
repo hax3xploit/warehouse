@@ -1,14 +1,14 @@
 <template>
     <div class="b">
-     <h1>Learn</h1>
-     <!-- <button>Linear Search</button> -->
-     <router-link to="/linear">Linear Search</router-link>
-     <button>Binary Search</button>
-     <button>Insertion Sort</button>
-     <button>Selection Sort</button>
-     <button>Bubble Sort</button>
-     <button>Merge Sort</button>
-     <button>Quick Sort</button>
+        <h1>Learn</h1>
+        <!-- <button>Linear Search</button> -->
+        <b-button squared variant="primary" router-link to="/linear">Linear Search</b-button>
+        <b-button squared variant="secondary">Binary Search</b-button>
+        <b-button squared variant="primary">Insertion Sort</b-button>
+        <b-button squared variant="secondary">Selection Sort</b-button>
+        <b-button squared variant="primary">Bubble Sort</b-button>
+        <b-button squared variant="secondary">Merge Sort</b-button>
+        <b-button squared variant="primary">Quick Sort</b-button>
     </div>
     
 </template>

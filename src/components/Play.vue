@@ -1,16 +1,16 @@
 <template>
     <div>
-     <h1>Play</h1>
-       <!-- <button>Search</button> -->
-        <router-link to="/mission1">Search</router-link>
-       <button>Quiz</button>
-     <button>Sort</button>
-     <button>Quiz</button>
-     <button>ROBO vs Player</button>
-     <button>Sort It</button>
-     <button>Quiz</button>
-     <button>Sort Me</button>
-     
+    <h1>Play</h1>
+      <!-- <button>Search</button> -->
+      <b-button squared variant="primary" router-link to="/mission1">Search</b-button>
+      <b-button squared variant="secondary">Quiz</b-button>
+      <b-button squared variant="primary">Sort</b-button>
+      <b-button squared variant="secondary">Quiz</b-button>
+      <b-button squared variant="primary">ROBO vs Player</b-button>
+      <b-button squared variant="secondary">Sort It</b-button>
+      <b-button squared variant="primary">Quiz</b-button>
+      <b-button squared variant="secondary">Sort Me</b-button>
+    
     </div>
 </template>
 
